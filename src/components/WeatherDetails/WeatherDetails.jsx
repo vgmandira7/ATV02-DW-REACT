@@ -1,6 +1,6 @@
 import styles from './WeatherDetails.module.css';
 
-// Recebe o objeto weather via props e exibe detalhes meteorológicos
+
 export default function WeatherDetails({ weather }) {
   return (
     <div className={styles.grid}>

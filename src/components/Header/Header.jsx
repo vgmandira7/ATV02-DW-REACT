@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
 
-// Dados recebidos via props: city, date, time
+
 export default function Header({ city, date, time }) {
   return (
     <header className={styles.header}>

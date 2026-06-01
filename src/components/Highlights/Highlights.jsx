@@ -8,7 +8,7 @@ const expandWeekday = (weekday) => {
   return map[weekday] || weekday;
 };
 
-// Ilustração SVG embutida no código — sem dependência de imagens externas
+
 const WeatherVisual = ({ condition }) => {
   const config = {
     rain: {
@@ -72,7 +72,7 @@ const WeatherVisual = ({ condition }) => {
   );
 };
 
-// Componente de lista — recebe array forecast via props e exibe os 3 próximos dias
+
 export default function Highlights({ forecast }) {
   return (
     <section className={styles.section}>

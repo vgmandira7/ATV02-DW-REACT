@@ -1,6 +1,6 @@
 import styles from './Almanac.module.css';
 
-// Componente de lista — recebe array forecast via props e exibe todos os dias
+
 export default function Almanac({ forecast }) {
   return (
     <section className={styles.section}>

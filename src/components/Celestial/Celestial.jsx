@@ -1,7 +1,7 @@
 import styles from './Celestial.module.css';
 import { translateMoonPhase } from '../../utils/editorialLogic';
 
-// Recebe weather via props e exibe dados celestes
+
 export default function Celestial({ weather }) {
   return (
     <section className={styles.section}>

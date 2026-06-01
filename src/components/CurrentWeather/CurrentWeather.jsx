@@ -1,8 +1,7 @@
 import styles from './CurrentWeather.module.css';
 import { getEditorialPhrase } from '../../utils/editorialLogic';
 
-// Componente de registro único — exibe a condição climática atual
-// Recebe o objeto weather inteiro via props
+
 export default function CurrentWeather({ weather }) {
   const { title, desc } = getEditorialPhrase(
     weather.condition_slug,
