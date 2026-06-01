@@ -1,0 +1,95 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mainColumn {
+  max-width: 800px;
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+
+.eyebrow::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background-color: var(--text-muted);
+  margin-top: 10px;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: 6rem;
+  line-height: 0.9;
+  font-weight: 400;
+  letter-spacing: -2px;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #333;
+  max-width: 600px;
+}
+
+.tempColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.temperature {
+  font-family: var(--font-serif);
+  font-size: 8rem;
+  line-height: 1;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.degree {
+  font-size: 4rem;
+  position: absolute;
+  top: 10px;
+}
+
+.conditionLabel {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.conditionText {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .tempColumn {
+    align-items: flex-start;
+  }
+}

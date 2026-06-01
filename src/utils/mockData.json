@@ -1,0 +1,41 @@
+{
+  "by": "city_name",
+  "valid_key": true,
+  "results": {
+    "temp": 16,
+    "date": "25/05/2026",
+    "time": "07:01",
+    "condition_code": "28",
+    "description": "Tempo nublado",
+    "currently": "dia",
+    "woeid": 455827,
+    "city": "São Paulo, SP",
+    "img_id": "28",
+    "humidity": 93,
+    "cloudiness": 75,
+    "rain": 0,
+    "wind_speedy": "2.57 km/h",
+    "wind_direction": 90,
+    "wind_cardinal": "L",
+    "sunrise": "06:38 am",
+    "sunset": "05:29 pm",
+    "moon_phase": "first_quarter",
+    "condition_slug": "cloud",
+    "city_name": "São Paulo",
+    "timezone": "-03:00",
+    "forecast": [
+      { "date": "25/05", "full_date": "25/05/2026", "weekday": "Seg", "max": 21, "min": 16, "humidity": 81, "cloudiness": 99, "rain": 0.13, "rain_probability": 88, "wind_speedy": "4.79 km/h", "sunrise": "06:38 am", "sunset": "05:29 pm", "moon_phase": "first_quarter", "description": "Chuvas esparsas", "condition": "rain" },
+      { "date": "26/05", "full_date": "26/05/2026", "weekday": "Ter", "max": 25, "min": 16, "humidity": 60, "cloudiness": 100, "rain": 5.06, "rain_probability": 100, "wind_speedy": "3.86 km/h", "sunrise": "06:38 am", "sunset": "05:28 pm", "moon_phase": "first_quarter", "description": "Chuva", "condition": "rain" },
+      { "date": "27/05", "full_date": "27/05/2026", "weekday": "Qua", "max": 19, "min": 15, "humidity": 83, "cloudiness": 91, "rain": 0.56, "rain_probability": 100, "wind_speedy": "4.91 km/h", "sunrise": "06:39 am", "sunset": "05:28 pm", "moon_phase": "waxing_gibbous", "description": "Chuvas esparsas", "condition": "rain" },
+      { "date": "28/05", "full_date": "28/05/2026", "weekday": "Qui", "max": 18, "min": 12, "humidity": 64, "cloudiness": 83, "rain": 0, "rain_probability": 0, "wind_speedy": "4.46 km/h", "sunrise": "06:39 am", "sunset": "05:28 pm", "moon_phase": "waxing_gibbous", "description": "Tempo nublado", "condition": "cloud" },
+      { "date": "29/05", "full_date": "29/05/2026", "weekday": "Sex", "max": 21, "min": 12, "humidity": 53, "cloudiness": 58, "rain": 0, "rain_probability": 0, "wind_speedy": "3.76 km/h", "sunrise": "06:39 am", "sunset": "05:28 pm", "moon_phase": "waxing_gibbous", "description": "Tempo nublado", "condition": "cloud" },
+      { "date": "30/05", "full_date": "30/05/2026", "weekday": "Sáb", "max": 22, "min": 13, "humidity": 59, "cloudiness": 4, "rain": 0, "rain_probability": 0, "wind_speedy": "4.55 km/h", "sunrise": "06:40 am", "sunset": "05:28 pm", "moon_phase": "full", "description": "Tempo limpo", "condition": "clear_day" },
+      { "date": "31/05", "full_date": "31/05/2026", "weekday": "Dom", "max": 22, "min": 15, "humidity": 59, "cloudiness": 21, "rain": 0, "rain_probability": 0, "wind_speedy": "4.02 km/h", "sunrise": "06:40 am", "sunset": "05:27 pm", "moon_phase": "full", "description": "Parcialmente nublado", "condition": "cloudly_day" },
+      { "date": "01/06", "full_date": "01/06/2026", "weekday": "Seg", "max": 22, "min": 14, "humidity": 63, "cloudiness": 34, "rain": 0, "rain_probability": 0, "wind_speedy": "3.75 km/h", "sunrise": "06:41 am", "sunset": "05:27 pm", "moon_phase": "full", "description": "Parcialmente nublado", "condition": "cloudly_day" },
+      { "date": "02/06", "full_date": "02/06/2026", "weekday": "Ter", "max": 23, "min": 14, "humidity": 60, "cloudiness": 4, "rain": 0, "rain_probability": 0, "wind_speedy": "4.01 km/h", "sunrise": "06:41 am", "sunset": "05:27 pm", "moon_phase": "full", "description": "Tempo limpo", "condition": "clear_day" }
+    ],
+    "cref": "5e6598",
+    "latitude": -23.5329,
+    "longitude": -46.6395
+  }
+}
