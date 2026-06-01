@@ -19,7 +19,7 @@ export default function WeatherDashboard() {
       try {
         // Tentativa de buscar da API real
         const response = await fetch(
-          'https://api.hgbrasil.com/weather?city_name=Brasilia,DF&key=51b6c5ed&format=json-cors'
+          'https://api.hgbrasil.com/weather?city_name=Sao_Paulo,SP&key=51b6c5ed&format=json-cors'
         );
         const data = await response.json();
 
